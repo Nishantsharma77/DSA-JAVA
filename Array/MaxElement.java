@@ -17,7 +17,7 @@ public class MaxElement {
             if (arr[i] < min)  min = arr[i];
          }
 
-       System.out.println(max);
+       System.out.println(min);
     }
 }
 
