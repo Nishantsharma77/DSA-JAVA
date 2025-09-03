@@ -1,0 +1,12 @@
+for each loop
+we use traverse data strcutures
+cannot modify array elements
+
+int[]arr ={5,8,2,6,9}
+for(int ele(any name) : arr){  //for int element in array
+    System.out.println(ele);  //output 5 8 2 6 9
+}
+for(int ele: arr){
+    ele *=2;   //this thing is not possible we can not make changes because 
+              //ismein elememnt ki naam ki copy banti hai
+}
